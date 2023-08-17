@@ -1,0 +1,16 @@
+site_name: F5 XC WAAP
+theme:
+    name: readthedocs
+markdown_extensions:
+  - admonition
+docs_dir: source
+site_dir: build
+ 
+nav:
+    - Giới thiệu tổng quan: index.md
+    - Khởi tạo F5 BIG-IP trên VMWare WorkStation: init.md
+    - Chuẩn bị môi trường: pre.md
+    - Tạo các chính sách bảo mật: securitypolicy.md
+    - Các thiết lập và tinh chỉnh khác: other.md
+    - Bỏ qua chế độ chặn lọc WAF: bypass.md
+    - F5 BIG-IP API và các công cụ tự động hoá: auto.md
